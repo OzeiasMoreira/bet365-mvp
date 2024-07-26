@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bet365 - A Minha Conta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-text">bet</span><span class="logo-highlight">365</span>
+        </div>
+        <nav>
+            <ul>
+                <li>Esportes</li>
+                <li>Ao-Vivo</li>
+                <li>Minhas Apostas</li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <span>R$0,00</span>
+            <button class="deposit">Depositar</button>
+            <div class="user-profile"></div>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <ul>
+                <li><a href="#">Dados do Usuario</a></li>
+                <li><a href="privacy-settings.html">Configurações de Privacidade</a></li>
+                <li><a href="dados.html">Solicitações de Dados</a></li>
+                <li><a href="suporte.html">Suporte ao Usuário</a></li>
+            </ul>
+        </aside>
+        <section class="content">
+            <h1>Dados do Usuario</h1>
+            <form>
+                <label for="phone">Telefone para Contato</label>
+                <input type="text" id="phone" value="005543999502930" disabled>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" value="OzMoreira17@gmail.com">
+
+                <label for="email">E-mail de Recuperação</label>
+                <input type="email" id="email" value="Ozmjr10@gmail.com">
+
+                <label for="card">Numero do Cartão</label>
+                <input type="cartao" id="card" value="5215 3696 7311 5274">
+                <label for="date">Data de Validade</label>
+                <input type="date" id="data-requests" value="26/01/2026">
+                <label for="ccv">Codigo de Segurança(CCV)</label>
+                <input type="ccv" id="ccv" value="361">
+
+                <label for="cpf">CPF</label>
+                <input type="cpf" id="CPF" value="***.***.***-**">
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Senha">
+                <button type="button" class="show-password">Mostrar</button>
+
+                <button type="submit" class="update">Atualizar</button>
+                <button type="button" class="cancel">Cancelar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
