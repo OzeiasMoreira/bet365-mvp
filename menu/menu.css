@@ -112,14 +112,17 @@ nav ul li {
 }
 
 .user-profile {
-    width: 30px;
-    height: 30px;
-    background-color: #ffffff;
-    border-radius: 50%;
+    background-color: white;
+    color:#1b512d;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    
 }
 
 .user-profile a{
-    color: white;
+    text-decoration: none;
+    color: #1b512d;
 }
 
 .main {
